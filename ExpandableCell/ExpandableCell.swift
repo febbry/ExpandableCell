@@ -10,7 +10,7 @@ import UIKit
 
 open class ExpandableCell: UITableViewCell {
     open var arrowImageView: UIImageView!
-    open var rightMargin: CGFloat = 16
+    open var rightMargin: CGFloat = 0
     open var highlightAnimation = HighlightAnimation.animated
     private var isOpen = false
     private var initialExpansionAllowed = true
